@@ -1,0 +1,36 @@
+{
+  "name": "ts-git-hooks",
+  "version": "1.0.0",
+  "description": "Easy setup of Git hooks in any TypeScript project with automatic hook management.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuttim/ts-git-hooks.git"
+  },
+  "keywords": [
+    "typescript",
+    "git",
+    "hooks",
+    "commit",
+    "push"
+  ],
+  "author": "Mikk Küttim <kuttim.mikk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuttim/ts-git-hooks/issues"
+  },
+  "homepage": "https://github.com/kuttim/ts-git-hooks#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
